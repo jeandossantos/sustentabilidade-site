@@ -1,11 +1,13 @@
+import Link from 'next/link';
+
 export default function Home() {
   return (
     <>
-      <div className='mx-28 my-5  text-zinc-800'>
-        <h1 className='text-4xl font-bold'>
+      <div className='mx-28 mt-5 mb-16  text-zinc-900'>
+        <h1 className='text-4xl font-bold text-green-900'>
           Bem-vindo ao Nosso Site de Sustentabilidade
         </h1>
-        <h2 className='text-3xl mt-5 font-bold text-zinc-800 '>
+        <h2 className='text-3xl mt-5 font-bold text-green-700 '>
           O que é Sustentabilidade?
         </h2>
         <p className='mt-3'>
@@ -16,7 +18,7 @@ export default function Home() {
           econômico, bem-estar social e proteção ambiental.
         </p>
 
-        <h2 className='text-3xl mt-5 font-bold text-zinc-800 '>
+        <h2 className='text-3xl mt-5 font-bold text-green-700 '>
           Como Surgiu o Conceito de Sustentabilidade?
         </h2>
         <p className='mt-3'>
@@ -29,33 +31,40 @@ export default function Home() {
           crescimento econômico, equidade social e conservação ambiental.
         </p>
 
-        <h2 className='text-3xl mt-5 font-bold text-zinc-800 '>
+        <h2 className='text-3xl mt-5 font-bold text-green-700 '>
           Navegue pelo Nosso Site
         </h2>
         <ul className='mt-3'>
-          <li>
-            <span className='font-bold text-zinc-900'>TI Verde: </span>
+          <li className='mb-2'>
+            <Link href={'/ti_verde'} className='font-bold text-amber-500'>
+              TI Verde:{' '}
+            </Link>
             Descubra como a tecnologia da informação pode ser utilizada de forma
             sustentável, reduzindo impactos ambientais e promovendo práticas
             ecologicamente responsáveis.
           </li>
 
-          <li>
-            <span className='font-bold text-zinc-900'>
-              Os 5 R's da Sustentabilidade:
-            </span>
+          <li className='mb-2'>
+            <Link
+              href={'/5_Rs_Da_Sustentabilidade'}
+              className='font-bold  text-amber-500'
+            >
+              Os 5 R's da Sustentabilidade:&nbsp;
+            </Link>
             Aprenda sobre as práticas fundamentais para um estilo de vida
             sustentável: Reduzir, Reutilizar, Reciclar, Recusar e Repensar.
           </li>
 
           <li>
-            <span className='font-bold text-zinc-900'>Sobre Nós:</span>
+            <Link href={'/about'} className='font-bold text-amber-500'>
+              Sobre Nós:{' '}
+            </Link>
             Conheça mais sobre nossa missão, visão e a equipe por trás deste
             projeto.
           </li>
         </ul>
 
-        <p className='mt-4 text-center font-semibold'>
+        <p className='mt-4 text-center font-semibold text-green-700'>
           Explore nosso site para saber mais sobre como podemos contribuir
           juntos para um planeta mais sustentável e saudável.
         </p>
