@@ -12,10 +12,10 @@ export default function RS_DA_Sustentabilidade() {
       </h2>
 
       <p className='mt-3'>
-        <b>Os 5 R's da Sustentabilidade</b> são práticas que ajudam a reduzir
-        nosso impacto no meio ambiente. Cada um desses R&apos;s representa uma
-        ação que podemos tomar para viver de forma mais sustentável. Vamos
-        conhecê-los:
+        <b>Os 5 R&apos;s da Sustentabilidade</b> são práticas que ajudam a
+        reduzir nosso impacto no meio ambiente. Cada um desses R&apos;s
+        representa uma ação que podemos tomar para viver de forma mais
+        sustentável. Vamos conhecê-los:
       </p>
 
       <h2 className='text-3xl mt-5 font-bold text-green-700 flex gap-2'>
