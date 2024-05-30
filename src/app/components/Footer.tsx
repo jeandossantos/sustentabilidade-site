@@ -26,7 +26,7 @@ export default function Footer() {
             href='5_Rs_Da_Sustentabilidade'
             className='hover:text-zinc-400 transition-colors'
           >
-            5 R'S DA SUSTENTABILIDADE
+            5 R&apos;S DA SUSTENTABILIDADE
           </Link>
         </li>
 

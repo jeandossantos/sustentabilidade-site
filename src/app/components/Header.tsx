@@ -31,7 +31,7 @@ export default function Header() {
           </li>
           <li className='px-6 border-r-2 border-r-zinc-100 hover:text-zinc-400 transition-colors'>
             <Link href='/5_Rs_Da_Sustentabilidade'>
-              5 R'S DA SUSTENTABILIDADE
+              5 R&apos;S DA SUSTENTABILIDADE
             </Link>
           </li>
           <li className='px-6 border-r-2 border-r-zinc-100 hover:text-zinc-400 transition-colors'>

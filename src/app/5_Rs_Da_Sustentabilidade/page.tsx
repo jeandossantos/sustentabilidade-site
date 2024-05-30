@@ -8,13 +8,13 @@ export default function RS_DA_Sustentabilidade() {
   return (
     <div className='mx-28 my-5 text-zinc-900'>
       <h2 className='text-4xl font-bold text-green-900'>
-        O que são os 5 R's da Sustentabilidade?
+        O que são os 5 R&apos;s da Sustentabilidade?
       </h2>
 
       <p className='mt-3'>
         <b>Os 5 R's da Sustentabilidade</b> são práticas que ajudam a reduzir
-        nosso impacto no meio ambiente. Cada um desses R's representa uma ação
-        que podemos tomar para viver de forma mais sustentável. Vamos
+        nosso impacto no meio ambiente. Cada um desses R&apos;s representa uma
+        ação que podemos tomar para viver de forma mais sustentável. Vamos
         conhecê-los:
       </p>
 
@@ -36,10 +36,10 @@ export default function RS_DA_Sustentabilidade() {
         Recusar
       </h2>
       <p className='mt-3'>
-        <b>Recusar</b> envolve dizer "não" a produtos que prejudicam o meio
-        ambiente. Isso inclui evitar itens de uso único, como sacolas plásticas,
-        canudos e talheres descartáveis. Ao recusar esses produtos, incentivamos
-        o uso de alternativas mais sustentáveis.
+        <b>Recusar</b> envolve dizer &quot;não&quot; a produtos que prejudicam o
+        meio ambiente. Isso inclui evitar itens de uso único, como sacolas
+        plásticas, canudos e talheres descartáveis. Ao recusar esses produtos,
+        incentivamos o uso de alternativas mais sustentáveis.
       </p>
 
       <h2 className='text-3xl mt-5 font-bold text-green-700 flex gap-2'>

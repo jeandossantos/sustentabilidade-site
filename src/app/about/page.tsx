@@ -4,7 +4,7 @@ export default function About() {
       <h2 className='text-4xl font-bold text-green-900'>Sobre o Site</h2>
       <p>
         <b className='text-zinc-800'>O +Sustentabilidade</b> foi criado para
-        promover a conscientização sobre os 5 R's da sustentabilidade:{' '}
+        promover a conscientização sobre os 5 R&apos;s da sustentabilidade:{' '}
         <b className='text-zic-800'>
           Reduzir, Reutilizar, Reciclar, Recusar e Repensar
         </b>

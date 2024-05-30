@@ -26,9 +26,10 @@ export default function Home() {
           global na década de 1980. Um marco importante foi o Relatório
           Brundtland, publicado em 1987 pela Comissão Mundial sobre Meio
           Ambiente e Desenvolvimento das Nações Unidas. O relatório, intitulado
-          "Nosso Futuro Comum", introduziu o conceito de desenvolvimento
-          sustentável, enfatizando a necessidade de estratégias que integrem
-          crescimento econômico, equidade social e conservação ambiental.
+          &quot;Nosso Futuro Comum&quot;, introduziu o conceito de
+          desenvolvimento sustentável, enfatizando a necessidade de estratégias
+          que integrem crescimento econômico, equidade social e conservação
+          ambiental.
         </p>
 
         <h2 className='text-3xl mt-5 font-bold text-green-700 '>
@@ -49,7 +50,7 @@ export default function Home() {
               href={'/5_Rs_Da_Sustentabilidade'}
               className='font-bold  text-amber-500'
             >
-              Os 5 R's da Sustentabilidade:&nbsp;
+              Os 5 R&lsquo;s da Sustentabilidade:&nbsp;
             </Link>
             Aprenda sobre as práticas fundamentais para um estilo de vida
             sustentável: Reduzir, Reutilizar, Reciclar, Recusar e Repensar.
