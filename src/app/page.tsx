@@ -1,12 +1,6 @@
-import Menu from './components/Menu';
-import Footer from './components/Footer';
-import Banner from './components/Banner';
-
 export default function Home() {
   return (
     <>
-      <Banner />
-      <Menu />
       <div className='mx-28 my-5  text-zinc-800'>
         <h1 className='text-4xl font-bold'>
           Bem-vindo ao Nosso Site de Sustentabilidade
@@ -66,8 +60,6 @@ export default function Home() {
           juntos para um planeta mais sustentável e saudável.
         </p>
       </div>
-
-      <Footer />
     </>
   );
 }

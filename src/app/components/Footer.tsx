@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -13,21 +14,19 @@ export default function Footer() {
 
       <ul className='flex font-bold text-zinc-100'>
         <li className='px-4 border-r-2 border-r-zinc-100'>
-          <a href=''>HOME</a>
+          <Link href='/'>HOME</Link>
         </li>
 
         <li className=' px-4 border-r-2 border-r-zinc-100'>
-          <a href='px-4 border-r-2 border-r-zinc-100'>
-            5 R'S DA SUSTENTABILIDADE
-          </a>
+          <Link href='5_Rs_Da_Sustentabilidade'>5 R'S DA SUSTENTABILIDADE</Link>
         </li>
 
         <li className=' px-4 border-r-2 border-r-zinc-100'>
-          <a href=''>TI VERDE</a>
+          <Link href='/ti_verde'>TI VERDE</Link>
         </li>
 
         <li className='  px-4 '>
-          <a href=''>SOBRE</a>
+          <Link href='/about'>SOBRE</Link>
         </li>
       </ul>
 
