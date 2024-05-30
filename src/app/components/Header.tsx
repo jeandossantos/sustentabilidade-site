@@ -16,7 +16,8 @@ export default function Header() {
 
         <h1
           className='flex items-center text-zinc-100 text-6xl font-bold absolute top-2/4 
-        text-center opacity-50 hover:opacity-80 cursor-pointer transition-opacity'
+        text-center opacity-50 hover:opacity-80 cursor-pointer transition-opacity 
+        '
         >
           <FaPlus size={125} />
           Sustentabilidade

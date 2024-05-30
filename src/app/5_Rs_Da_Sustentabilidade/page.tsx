@@ -1,3 +1,9 @@
+import { FaLightbulb } from 'react-icons/fa';
+import { FaBan } from 'react-icons/fa';
+import { FaCompressArrowsAlt } from 'react-icons/fa';
+import { FaSyncAlt } from 'react-icons/fa';
+import { FaRecycle } from 'react-icons/fa6';
+
 export default function RS_DA_Sustentabilidade() {
   return (
     <div className='mx-28 my-5 text-zinc-900'>
@@ -12,7 +18,11 @@ export default function RS_DA_Sustentabilidade() {
         conhecê-los:
       </p>
 
-      <h2 className='text-3xl mt-5 font-bold text-green-700'>Repensar</h2>
+      <h2 className='text-3xl mt-5 font-bold text-green-700 flex gap-2'>
+        <FaLightbulb />
+        Repensar
+      </h2>
+
       <p>
         <b>Repensar</b> é refletir sobre nossos hábitos de consumo e o impacto
         que eles têm no planeta. Devemos considerar a sustentabilidade em todas
@@ -21,7 +31,10 @@ export default function RS_DA_Sustentabilidade() {
         sustentáveis.
       </p>
 
-      <h2 className='text-3xl mt-5 font-bold text-green-700'>Recusar</h2>
+      <h2 className='text-3xl mt-5 font-bold text-green-700 flex gap-2'>
+        <FaBan />
+        Recusar
+      </h2>
       <p className='mt-3'>
         <b>Recusar</b> envolve dizer "não" a produtos que prejudicam o meio
         ambiente. Isso inclui evitar itens de uso único, como sacolas plásticas,
@@ -29,7 +42,9 @@ export default function RS_DA_Sustentabilidade() {
         o uso de alternativas mais sustentáveis.
       </p>
 
-      <h2 className='text-3xl mt-5 font-bold text-green-700'>Reduzir</h2>
+      <h2 className='text-3xl mt-5 font-bold text-green-700 flex gap-2'>
+        <FaCompressArrowsAlt /> Reduzir
+      </h2>
       <p className='mt-3'>
         <b>Reduzir</b> significa consumir menos e de forma mais consciente. Ao
         comprar apenas o que realmente precisamos e evitar desperdícios,
@@ -37,7 +52,10 @@ export default function RS_DA_Sustentabilidade() {
         optar por produtos com menos embalagens ou comprar a granel.
       </p>
 
-      <h2 className='text-3xl mt-5 font-bold text-green-700'>Reutilizar</h2>
+      <h2 className='text-3xl mt-5 font-bold text-green-700 flex gap-2'>
+        <FaSyncAlt />
+        Reutilizar
+      </h2>
       <p className='mt-3'>
         <b>Reutilizar</b> consiste em usar os objetos mais de uma vez antes de
         descartá-los. Em vez de jogar fora itens que ainda podem ser úteis,
@@ -46,7 +64,10 @@ export default function RS_DA_Sustentabilidade() {
         roupas antigas para criar novos acessórios.
       </p>
 
-      <h2 className='text-3xl mt-5 font-bold text-green-700'>Reciclar</h2>
+      <h2 className='text-3xl mt-5 font-bold text-green-700 flex gap-2'>
+        <FaRecycle />
+        Reciclar
+      </h2>
       <p className='mt-3'>
         <b>Reciclar</b> é o processo de transformar materiais usados em novos
         produtos. Separando corretamente o lixo (papel, plástico, vidro, metal),
