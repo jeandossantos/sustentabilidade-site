@@ -51,7 +51,7 @@ export default function RS_DA_Sustentabilidade() {
           Estou me esforçando para economizando recursos como água e
           eletricidade?
         </li>
-        <li className='mb-2 '>
+        <li className='mb-2'>
           Estou comprando somente o necessário ou estou comprando por impulso?
         </li>
         <li className='mb-4 '>Estou descartando meu lixo corretamente?</li>

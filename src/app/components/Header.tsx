@@ -35,7 +35,7 @@ export default function Header() {
             </Link>
           </li>
           <li className='px-6 border-r-2 border-r-zinc-100 hover:text-zinc-400 transition-colors'>
-            <Link href='#'>TI VERDE</Link>
+            <Link href='/ti_verde'>TI VERDE</Link>
           </li>
           <li className='px-6'>
             <Link
