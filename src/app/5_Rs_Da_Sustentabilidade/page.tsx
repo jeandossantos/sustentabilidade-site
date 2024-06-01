@@ -54,7 +54,7 @@ export default function RS_DA_Sustentabilidade() {
         <li className='mb-2'>
           Estou comprando somente o necessário ou estou comprando por impulso?
         </li>
-        <li className='mb-4 '>Estou descartando meu lixo corretamente?</li>
+        <li className='mb-4'>Estou descartando meu lixo corretamente?</li>
       </ul>
       <p>Ao se fazer tais perguntas você já está aplicando essa prática.</p>
       {/* RECUSAR */}
