@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import EmbedVideo from './components/EmbedVideo';
 
 export default function Home() {
   return (
@@ -10,6 +11,9 @@ export default function Home() {
         <h2 className='text-3xl mt-5 font-bold text-green-700 '>
           O que é Sustentabilidade?
         </h2>
+        <div className='flex justify-center'>
+          <EmbedVideo code='XrCdZy9Mvb0' width={500} height={250} />
+        </div>
         <p className='mt-3'>
           <span className='font-bold'>Sustentabilidade</span> é um conceito que
           se refere à capacidade de atender às necessidades do presente sem
