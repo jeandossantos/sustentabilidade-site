@@ -16,7 +16,7 @@ export default function Header() {
         ></Image>
 
         <h1
-          className='flex items-center sm:hidden text-zinc-100 sm:text-xl md:text-6xl font-bold absolute top-2/4 
+          className='flex items-center sm:hidden md:flex text-5xl  text-zinc-100  font-bold absolute top-2/4 
         text-center opacity-50 hover:opacity-80 cursor-pointer transition-opacity 
         '
         >
