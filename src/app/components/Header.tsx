@@ -7,6 +7,7 @@ export default function Header() {
     <>
       <div className='relative flex justify-center'>
         <Image
+          className='w-full h-auto  shadow-l sm:hidden md:block'
           src={'/banner.jpg'}
           alt='+Sustentabilidade'
           width={1440}
@@ -15,7 +16,7 @@ export default function Header() {
         ></Image>
 
         <h1
-          className='flex items-center text-zinc-100 text-6xl font-bold absolute top-2/4 
+          className='flex items-center sm:hidden text-zinc-100 sm:text-xl md:text-6xl font-bold absolute top-2/4 
         text-center opacity-50 hover:opacity-80 cursor-pointer transition-opacity 
         '
         >
@@ -24,7 +25,7 @@ export default function Header() {
         </h1>
       </div>
 
-      <nav className='bg-green-300 h-12 flex items-center justify-center '>
+      <nav className='bg-green-300 h-12 flex items-center justify-center'>
         <ul className='flex flex-row font-bold text-zinc-100 justify-center items-center'>
           <li className='px-6 border-r-2 border-r-zinc-100 hover:text-zinc-400 transition-colors'>
             <Link href='/'>HOME</Link>

@@ -8,7 +8,7 @@ import EmbedVideo from '../components/EmbedVideo';
 
 export default function RS_DA_Sustentabilidade() {
   return (
-    <div className='mx-28 my-5 text-zinc-900'>
+    <>
       <h2 className='text-4xl font-bold text-green-900'>
         O que são os 5 R&apos;s da Sustentabilidade?
       </h2>
@@ -251,6 +251,6 @@ export default function RS_DA_Sustentabilidade() {
         ecologicamente correta. Lembre-se, cada pequena ação conta e juntos
         podemos fazer uma grande diferença.
       </p>
-    </div>
+    </>
   );
 }

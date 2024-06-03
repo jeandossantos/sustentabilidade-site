@@ -21,7 +21,9 @@ export default function RootLayout({
     <html lang='pt-br'>
       <body className={inter.className}>
         <Header />
-        {children}
+        <div className=' sm:mx-4 md:mx-28 mt-5 mb-16 text-zinc-900'>
+          {children}
+        </div>
         <Footer />
       </body>
     </html>

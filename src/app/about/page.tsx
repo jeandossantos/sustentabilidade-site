@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className='mx-28 my-5'>
+    <>
       <h2 className='text-4xl font-bold text-green-900'>Sobre o Site</h2>
       <p>
         <b className='text-zinc-800'>O +Sustentabilidade</b> foi criado para
@@ -18,6 +18,6 @@ export default function About() {
         de Sistemas (ADS) na INIG (Universidade de Nova Iguaçu). Estou no
         segundo período do curso, que é oferecido na modalidade EAD.
       </p>
-    </div>
+    </>
   );
 }
