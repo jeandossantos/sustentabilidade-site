@@ -1,8 +1,18 @@
+import Image from 'next/image';
+
 export default function TI_Verde() {
   return (
     <>
       <div className='mx-28 my-5 text-zinc-900'>
         <h1 className='text-4xl font-bold text-green-900'>O que é TI Verde?</h1>
+
+        <Image
+          className='my-4 max-w-full h-auto rounded-lg'
+          src={'/ti_verde.jpeg'}
+          alt='Monitor com uma arvore saindo'
+          width={400}
+          height={300}
+        />
 
         <p className='mt-3'>
           TI Verde, ou Tecnologia da Informação Verde, refere-se ao uso
